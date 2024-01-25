@@ -2,12 +2,12 @@ name: Deploy to github pages
 run-name: run-name for this action
 on:
   push:
-    branches:
-      - main
+    branches: ["main"]
   workflow_dispatch:
     
 jobs:
   example-job:
+    name: Example Job
     runs-on: ubuntu-latest
     steps:
       - name: Checkout this repository
