@@ -13,7 +13,9 @@ function App() {
 				docs, i felt the need to have a dedicated repo where i can test
 				all sort of github actions.
 			</p>
-			<br />
+			<ul className="font-serif text-xl text-gray-700 list-disc p-6">
+				<li>change-1</li>
+			</ul>
 			<div className="links m-auto w-fit font-serif text-xl text-blue-700">
 				<a
 					href="https://github.com/m2x07"
